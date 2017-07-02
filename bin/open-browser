@@ -1,0 +1,8 @@
+#!perl
+
+use strict;
+use warnings;
+use Browser::Open qw(open_browser);
+
+die "Usage: $0 <url>\n" unless @ARGV;
+open_browser($ARGV[0]);
