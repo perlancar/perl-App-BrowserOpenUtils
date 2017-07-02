@@ -6,3 +6,16 @@ use Browser::Open qw(open_browser);
 
 die "Usage: $0 <url>\n" unless @ARGV;
 open_browser($ARGV[0]);
+
+# ABSTRACT: Open URL in a browser using Browser::Open
+# PODNAME:
+
+=head1 SYNOPSIS
+
+ % open-browser <url>
+
+
+=head1 DESCRIPTION
+
+This is a super-simple CLI script to open URL in a browser using
+L<Browser::Open>.
