@@ -57,3 +57,8 @@ sub open_browser {
 This distribution includes several utilities:
 
 #INSERT_EXECS_LIST
+
+
+=head1 SEE ALSO
+
+L<App::BrowserUtils>
